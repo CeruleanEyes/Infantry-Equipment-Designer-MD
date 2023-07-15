@@ -388,10 +388,10 @@ equipment_modules = {
 
 		}
 
-	# Rocket Propelled Grenades
-	# RPGs are often an infantry squad's best immediate reaction to any kind of vehicle target, they are relatively cheap and often disposable
-		early_cold_war_rpg = {
-			category = infantry_rpg_type
+	# Man Portable Anti-Tank Systems
+	# MANPATS are often an infantry squad's best immediate reaction to any kind of vehicle target, they are relatively cheap and often disposable
+		early_cold_war_manpats = {
+			category = infantry_manpats_type
 
 			add_stats = {
 				
@@ -401,8 +401,8 @@ equipment_modules = {
 
 		}
 
-		late_cold_war_rpg = {
-			category = infantry_rpg_type
+		late_cold_war_manpats = {
+			category = infantry_manpats_type
 
 			add_stats = {
 				
@@ -412,8 +412,8 @@ equipment_modules = {
 
 		}
 
-		modern_rpg = {
-			category = infantry_rpg_type
+		modern_manpats = {
+			category = infantry_manpats_type
 
 			add_stats = {
 				
@@ -423,8 +423,8 @@ equipment_modules = {
 
 		}
 
-		advanced_rpg = {
-			category = infantry_rpg_type
+		advanced_manpats = {
+			category = infantry_manpats_type
 
 			add_stats = {
 				
@@ -434,8 +434,8 @@ equipment_modules = {
 
 		}
 
-		future_rpg = {
-			category = infantry_rpg_type
+		future_manpats = {
+			category = infantry_manpats_type
 
 			add_stats = {
 				
@@ -507,7 +507,9 @@ equipment_modules = {
 	## Special Equipment encompasses both squad extensions (often in the form of crew-served weapons) and 
 	## A squad extension need not necessarily require that the weapon system is inherently heavier or that it requires more crew, it may simply be more complex
 
-	# Anti-Tank Guided Missiles
+	# Crew-Served Heavy Anti-Tank
+		
+		#Crew-Served ATGMs
 		early_cold_war_atgm = {
 			category = infantry_atgm_type
 
