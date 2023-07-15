@@ -49,6 +49,10 @@ technologies = {
 			bandaging_package
 			sapper_shovels
 			binoculars
+			early_cold_war_assault_weapon
+			early_cold_war_battle_weapon
+			early_cold_war_conventional_weapon
+			cold_war_rocket_rifle
 		}
 		enable_subunits = {
 			Militia_Bat

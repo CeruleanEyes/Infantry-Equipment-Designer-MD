@@ -1,5 +1,755 @@
 equipment_modules = {
 
+	### New Modules
+
+	## Small Arms
+	## Small Arms are the primary service rifle issued to a unit and include every generic, non-specialized rifle
+	
+	# Assault Rifles
+	# Assault Rifles include select-fire weapons with an engagement range in excess of 200 meters which fire intermediate-calibre cartridges
+		early_cold_war_assault_weapon = {
+			category = assault_weapon_type
+
+			add_stats = {
+				# Assault Rifles are good all-around weapons with an emphasis on breakthrough over defense
+			}
+
+			xp_cost = 0
+
+			build_cost_resources = {
+				steel = 2
+			}
+		}
+
+		late_cold_war_assault_weapon = {
+			category = assault_weapon_type
+
+			add_stats = {
+				# Assault Rifles are good all-around weapons with an emphasis on breakthrough over defense
+			}
+
+			xp_cost = 2
+
+			build_cost_resources = {
+				steel = 2
+			}
+		}
+
+		modern_assault_weapon = {
+			category = assault_weapon_type
+
+			add_stats = {
+				# Assault Rifles are good all-around weapons with an emphasis on breakthrough over defense
+			}
+
+			xp_cost = 2
+
+			build_cost_resources = {
+				steel = 2
+			}
+		}
+
+		advanced_assault_weapon = {
+			category = assault_weapon_type
+
+			add_stats = {
+				# Assault Rifles are good all-around weapons with an emphasis on breakthrough over defense
+			}
+
+			xp_cost = 2
+
+			build_cost_resources = {
+				steel = 2
+			}
+		}
+
+		future_assault_weapon = {
+			category = assault_weapon_type
+
+			add_stats = {
+				# Assault Rifles are good all-around weapons with an emphasis on breakthrough over defense
+			}
+
+			xp_cost = 2
+
+			build_cost_resources = {
+				steel = 2
+			}
+		}
+
+	# Battle Rifles
+	# Battle Rifles include select-fire weapons with an engagement range in excess of 200 meters which fire full-calibre cartridges
+		early_cold_war_battle_weapon = {
+			category = battle_weapon_type
+
+			add_stats = {
+				# Battle Rifles are specialist weapons with a token amount of piercing & hard attack and an emphasis on defense over breakthrough
+				# Compared to Assault Rifles, Battle Rifles are slightly less reliable and slightly more expensive
+			}
+
+			xp_cost = 0
+
+			build_cost_resources = {
+				steel = 2
+			}
+		}
+
+		late_cold_war_battle_weapon = {
+			category = battle_weapon_type
+
+			add_stats = {
+				# Battle Rifles are specialist weapons with a token amount of piercing & hard attack and an emphasis on defense over breakthrough
+				# Compared to Assault Rifles, Battle Rifles are slightly less reliable and slightly more expensive
+			}
+
+			xp_cost = 2
+
+			build_cost_resources = {
+				steel = 2
+			}
+		}
+
+		modern_battle_weapon = {
+			category = battle_weapon_type
+
+			add_stats = {
+				# Battle Rifles are specialist weapons with a token amount of piercing & hard attack and an emphasis on defense over breakthrough
+				# Compared to Assault Rifles, Battle Rifles are slightly less reliable and slightly more expensive
+			}
+
+			xp_cost = 2
+
+			build_cost_resources = {
+				steel = 2
+			}
+		}
+
+		advanced_battle_weapon = {
+			category = battle_weapon_type
+
+			add_stats = {
+				# Battle Rifles are specialist weapons with a token amount of piercing & hard attack and an emphasis on defense over breakthrough
+				# Compared to Assault Rifles, Battle Rifles are slightly less reliable and slightly more expensive
+			}
+
+			xp_cost = 2
+
+			build_cost_resources = {
+				steel = 2
+			}
+		}
+
+		future_battle_weapon = {
+			category = battle_weapon_type
+
+			add_stats = {
+				# Battle Rifles are specialist weapons with a token amount of piercing & hard attack and an emphasis on defense over breakthrough
+				# Compared to Assault Rifles, Battle Rifles are slightly less reliable and slightly more expensive
+			}
+
+			xp_cost = 2
+
+			build_cost_resources = {
+				steel = 2
+			}
+		}
+
+	# Conventional Rifles
+	# Conventional Rifles include semi-automatic weapons of all types or select-fire weapons with an effective range under 200 meters
+		early_cold_war_conventional_weapon = {
+			category = conventional_weapon_type
+
+			add_stats = {
+				# Conventional Rifles are the poor man's weapon and are outclassed in every way except defense (where they are only slightly worse) by battle and assault rifles
+				# Compared to other weapon options, they greatly reduce breakthrough, have worse soft attack, have comparable reliability, and are cheap
+			}
+
+			xp_cost = 0
+
+			build_cost_resources = {
+				steel = 1
+			}
+		}
+
+		late_cold_war_conventional_weapon = {
+			category = conventional_weapon_type
+
+			add_stats = {
+				# Conventional Rifles are the poor man's weapon and are outclassed in every way except defense (where they are only slightly worse) by battle and assault rifles
+				# Compared to other weapon options, they greatly reduce breakthrough, have worse soft attack, have comparable reliability, and are cheap
+			}
+
+			xp_cost = 2
+
+			build_cost_resources = {
+				steel = 1
+			}
+		}
+
+		modern_conventional_weapon = {
+			category = conventional_weapon_type
+
+			add_stats = {
+				# Conventional Rifles are the poor man's weapon and are outclassed in every way except defense (where they are only slightly worse) by battle and assault rifles
+				# Compared to other weapon options, they greatly reduce breakthrough, have worse soft attack, have comparable reliability, and are cheap
+			}
+
+			xp_cost = 2
+
+			build_cost_resources = {
+				steel = 1
+			}
+		}
+
+		advanced_conventional_weapon = {
+			category = conventional_weapon_type
+
+			add_stats = {
+				# Conventional Rifles are the poor man's weapon and are outclassed in every way except defense (where they are only slightly worse) by battle and assault rifles
+				# Compared to other weapon options, they greatly reduce breakthrough, have worse soft attack, have comparable reliability, and are cheap
+			}
+
+			xp_cost = 2
+
+			build_cost_resources = {
+				steel = 1
+			}
+		}
+
+		future_conventional_weapon = {
+			category = conventional_weapon_type
+
+			add_stats = {
+				# Conventional Rifles are the poor man's weapon and are outclassed in every way except defense (where they are only slightly worse) by battle and assault rifles
+				# Compared to other weapon options, they greatly reduce breakthrough, have worse soft attack, have comparable reliability, and are cheap
+			}
+
+			xp_cost = 2
+
+			build_cost_resources = {
+				steel = 1
+			}
+		}
+
+	# Rocket Rifles
+	# Rocket Rifles include any kind of weapon which fires a projectile whose main form of reaching velocity is a rocket-proppelled booster
+		cold_war_rocket_rifle = {
+			category = rocket_weapon_type
+
+			add_stats = {
+				# Rocket Rifles suffer from abysmal reliability but possess better soft attack than their normal counterparts
+				# They are more expensive and do not generally improve on their peers in terms of capabilities outside of soft attack
+			}
+
+			xp_cost = 2
+
+			build_cost_resources = {
+				steel = 2
+			}
+		}
+
+		modern_rocket_rifle = {
+			category = rocket_weapon_type
+
+			add_stats = {
+				# Rocket Rifles suffer from abysmal reliability but possess better soft attack than their normal counterparts
+				# They are more expensive and do not generally improve on their peers in terms of capabilities outside of soft attack
+			}
+
+			xp_cost = 5
+
+			build_cost_resources = {
+				steel = 2
+			}
+		}
+
+		future_rocket_rifle = {
+			category = rocket_weapon_type
+
+			add_stats = {
+				# Rocket Rifles suffer from abysmal reliability but possess better soft attack than their normal counterparts
+				# They are more expensive and do not generally improve on their peers in terms of capabilities outside of soft attack
+				# Future rocket rifles feature airburst and therefore grant a large boost to breakthrough
+			}
+
+			xp_cost = 5
+
+			build_cost_resources = {
+				steel = 4
+			}
+		}
+
+	## Auxiliary Weapons
+	## Auxiliary Weapons are items that can be reasonably expected to be carried by a specialized squaddie, replacing or supplementing their loadout
+
+	# Squad Automatic Weapons
+	# SAWs include automatic intermediate- or full-calibre firing weapons which are designed to be practically man-portable
+		cold_war_saw = {
+			category = infantry_saw_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 2
+
+		}
+
+		modern_saw = {
+			category = infantry_saw_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 2
+
+		}
+
+		future_saw = {
+			category = infantry_saw_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 2
+
+		}
+
+	# Portable Grenade Launcher
+	# Grenade Launchers are fairly self-explanatory, this section covers things like dedicated launchers, rifle grenades, and underslung launchers
+	# The first grenade sprites should be rifle grenades, then underslung, then dedicated
+		cold_war_grenade_launcher = {
+			category = infantry_grenade_launcher_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 2
+
+		}
+
+		modern_grenade_launcher = {
+			category = infantry_grenade_launcher_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 2
+
+		}
+
+		future_grenade_launcher = {
+			category = infantry_grenade_launcher_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 2
+
+		}
+
+	# Designated Marksman Rifle
+	# DMRs are specialized rifles carried by members of a squad which are intended for standoff engagement, reaching beyond what other solders are capable of
+		cold_war_dmr = {
+			category = infantry_dmr_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 2
+
+		}	
+		
+		modern_dmr = {
+			category = infantry_dmr_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 2
+
+		}	
+
+		future_dmr = {
+			category = infantry_dmr_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 2
+
+		}
+
+	# Rocket Propelled Grenades
+	# RPGs are often an infantry squad's best immediate reaction to any kind of vehicle target, they are relatively cheap and often disposable
+		early_cold_war_rpg = {
+			category = infantry_rpg_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 2
+
+		}
+
+		late_cold_war_rpg = {
+			category = infantry_rpg_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 2
+
+		}
+
+		modern_rpg = {
+			category = infantry_rpg_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 2
+
+		}
+
+		advanced_rpg = {
+			category = infantry_rpg_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 2
+
+		}
+
+		future_rpg = {
+			category = infantry_rpg_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 2
+
+		}
+
+
+	# Man Portable Air Defense Systems
+	# MANPADs are primarily missile-based solutions to aircraft, they are expensive and rarely carried by individual infantry squads
+		early_cold_war_manpads = {
+			category = infantry_manpads_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 2
+
+		}	
+
+		late_cold_war_manpads = {
+			category = infantry_manpads_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 2
+
+		}
+
+		modern_manpads = {
+			category = infantry_manpads_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 2
+
+		}
+
+		advanced_manpads = {
+			category = infantry_manpads_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 2
+
+		}
+
+		future_manpads = {
+			category = infantry_manpads_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 2
+
+		}
+
+	## Special Equipment
+	## Special Equipment encompasses both squad extensions (often in the form of crew-served weapons) and 
+	## A squad extension need not necessarily require that the weapon system is inherently heavier or that it requires more crew, it may simply be more complex
+
+	# Anti-Tank Guided Missiles
+		early_cold_war_atgm = {
+			category = infantry_atgm_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 5
+		}
+
+		late_cold_war_atgm = {
+			category = infantry_atgm_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 5
+		}
+
+		modern_atgm = {
+			category = infantry_atgm_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 5
+		}
+
+		advanced_atgm = {
+			category = infantry_atgm_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 5
+		}
+
+		future_atgm = {
+			category = infantry_atgm_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 5
+		}
+
+	# Precision Rifle Teams
+		
+		# Sniper Teams
+		cold_war_sniper_rifle = {
+			category = infantry_precision_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 5
+		}
+
+		modern_sniper_rifle = {
+			category = infantry_precision_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 5
+		}
+
+		future_sniper_rifle = {
+			category = infantry_precision_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 5
+		}
+
+		# AMR Teams
+		cold_war_am_rifle = {
+			category = infantry_precision_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 5
+		}
+
+		modern_am_rifle = {
+			category = infantry_precision_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 5
+		}
+
+		future_am_rifle = {
+			category = infantry_precision_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 5
+		}
+
+	# Crew-Served Automatic Weapons
+
+		#LMG Teams
+		cold_war_lmg = {
+			category = infantry_crew_automatic_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 5
+		}
+
+		modern_lmg = {
+			category = infantry_crew_automatic_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 5
+		}
+
+		future_lmg = {
+			category = infantry_crew_automatic_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 5
+		}
+
+		#HMG Teams
+		cold_war_hmg = {
+			category = infantry_crew_automatic_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 5
+		}
+
+		modern_hmg = {
+			category = infantry_crew_automatic_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 5
+		}
+
+		future_hmg = {
+			category = infantry_crew_automatic_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 5
+		}
+
+
+		#AGL Teams
+		cold_war_agl = {
+			category = infantry_crew_automatic_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 5
+		}
+
+		modern_agl = {
+			category = infantry_crew_automatic_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 5
+		}
+
+		future_agl = {
+			category = infantry_crew_automatic_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 5
+		}
+
+	# Mortar Teams
+		
+		cold_war_mortar = {
+			category = infantry_mortar_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 5
+		}
+
+		modern_mortar = {
+			category = infantry_mortar_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 5
+		}
+
+		future_mortar = {
+			category = infantry_mortar_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 5
+		}
+
 	# Main Armament 
 		prewar_weapon = {
 			category = infantry_weapon_type

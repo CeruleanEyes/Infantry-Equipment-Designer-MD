@@ -65,6 +65,10 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					infantry_weapon_type
+					assault_weapon_type
+					battle_weapon_type
+					conventional_weapon_type
+					rocket_weapon_type
 				}
 			}
 			
