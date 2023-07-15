@@ -256,7 +256,7 @@ equipment_modules = {
 				# They are more expensive and do not generally improve on their peers in terms of capabilities outside of soft attack
 			}
 
-			xp_cost = 5
+			xp_cost = 8
 
 			build_cost_resources = {
 				steel = 2
@@ -272,7 +272,7 @@ equipment_modules = {
 				# Future rocket rifles feature airburst and therefore grant a large boost to breakthrough
 			}
 
-			xp_cost = 5
+			xp_cost = 10
 
 			build_cost_resources = {
 				steel = 4
@@ -302,7 +302,7 @@ equipment_modules = {
 				
 			}
 
-			xp_cost = 2
+			xp_cost = 3
 
 		}
 
@@ -313,7 +313,7 @@ equipment_modules = {
 				
 			}
 
-			xp_cost = 2
+			xp_cost = 3
 
 		}
 
@@ -338,7 +338,7 @@ equipment_modules = {
 				
 			}
 
-			xp_cost = 2
+			xp_cost = 3
 
 		}
 
@@ -349,7 +349,7 @@ equipment_modules = {
 				
 			}
 
-			xp_cost = 2
+			xp_cost = 3
 
 		}
 
@@ -362,7 +362,7 @@ equipment_modules = {
 				
 			}
 
-			xp_cost = 2
+			xp_cost = 5
 
 		}	
 		
@@ -373,7 +373,7 @@ equipment_modules = {
 				
 			}
 
-			xp_cost = 2
+			xp_cost = 5
 
 		}	
 
@@ -384,7 +384,7 @@ equipment_modules = {
 				
 			}
 
-			xp_cost = 2
+			xp_cost = 5
 
 		}
 
@@ -408,7 +408,7 @@ equipment_modules = {
 				
 			}
 
-			xp_cost = 2
+			xp_cost = 3
 
 		}
 
@@ -419,7 +419,7 @@ equipment_modules = {
 				
 			}
 
-			xp_cost = 2
+			xp_cost = 5
 
 		}
 
@@ -430,7 +430,7 @@ equipment_modules = {
 				
 			}
 
-			xp_cost = 2
+			xp_cost = 8
 
 		}
 
@@ -441,7 +441,7 @@ equipment_modules = {
 				
 			}
 
-			xp_cost = 2
+			xp_cost = 10
 
 		}
 
@@ -455,7 +455,7 @@ equipment_modules = {
 				
 			}
 
-			xp_cost = 2
+			xp_cost = 5
 
 		}	
 
@@ -466,7 +466,7 @@ equipment_modules = {
 				
 			}
 
-			xp_cost = 2
+			xp_cost = 5
 
 		}
 
@@ -477,7 +477,7 @@ equipment_modules = {
 				
 			}
 
-			xp_cost = 2
+			xp_cost = 5
 
 		}
 
@@ -488,7 +488,7 @@ equipment_modules = {
 				
 			}
 
-			xp_cost = 2
+			xp_cost = 5
 
 		}
 
@@ -499,7 +499,7 @@ equipment_modules = {
 				
 			}
 
-			xp_cost = 2
+			xp_cost = 5
 
 		}
 
@@ -511,53 +511,53 @@ equipment_modules = {
 		
 		#Crew-Served ATGMs
 		early_cold_war_atgm = {
-			category = infantry_atgm_type
+			category = infantry_heavy_at_type
 
 			add_stats = {
 				
 			}
 
-			xp_cost = 5
+			xp_cost = 8
 		}
 
 		late_cold_war_atgm = {
-			category = infantry_atgm_type
+			category = infantry_heavy_at_type
 
 			add_stats = {
 				
 			}
 
-			xp_cost = 5
+			xp_cost = 8
 		}
 
 		modern_atgm = {
-			category = infantry_atgm_type
+			category = infantry_heavy_at_type
 
 			add_stats = {
 				
 			}
 
-			xp_cost = 5
+			xp_cost = 8
 		}
 
 		advanced_atgm = {
-			category = infantry_atgm_type
+			category = infantry_heavy_at_type
 
 			add_stats = {
 				
 			}
 
-			xp_cost = 5
+			xp_cost = 8
 		}
 
 		future_atgm = {
-			category = infantry_atgm_type
+			category = infantry_heavy_at_type
 
 			add_stats = {
 				
 			}
 
-			xp_cost = 5
+			xp_cost = 8
 		}
 
 	# Precision Rifle Teams
@@ -570,7 +570,7 @@ equipment_modules = {
 				
 			}
 
-			xp_cost = 5
+			xp_cost = 8
 		}
 
 		modern_sniper_rifle = {
@@ -580,7 +580,7 @@ equipment_modules = {
 				
 			}
 
-			xp_cost = 5
+			xp_cost = 8
 		}
 
 		future_sniper_rifle = {
@@ -590,7 +590,7 @@ equipment_modules = {
 				
 			}
 
-			xp_cost = 5
+			xp_cost = 8
 		}
 
 		# AMR Teams
@@ -601,7 +601,7 @@ equipment_modules = {
 				
 			}
 
-			xp_cost = 5
+			xp_cost = 10
 		}
 
 		modern_am_rifle = {
@@ -611,7 +611,7 @@ equipment_modules = {
 				
 			}
 
-			xp_cost = 5
+			xp_cost = 10
 		}
 
 		future_am_rifle = {
@@ -621,12 +621,12 @@ equipment_modules = {
 				
 			}
 
-			xp_cost = 5
+			xp_cost = 10
 		}
 
 	# Crew-Served Automatic Weapons
 
-		#LMG Teams
+		# LMG Teams
 		cold_war_lmg = {
 			category = infantry_crew_automatic_type
 
@@ -657,7 +657,7 @@ equipment_modules = {
 			xp_cost = 5
 		}
 
-		#HMG Teams
+		# HMG Teams
 		cold_war_hmg = {
 			category = infantry_crew_automatic_type
 
@@ -665,7 +665,7 @@ equipment_modules = {
 				
 			}
 
-			xp_cost = 5
+			xp_cost = 8
 		}
 
 		modern_hmg = {
@@ -675,7 +675,7 @@ equipment_modules = {
 				
 			}
 
-			xp_cost = 5
+			xp_cost = 8
 		}
 
 		future_hmg = {
@@ -685,11 +685,11 @@ equipment_modules = {
 				
 			}
 
-			xp_cost = 5
+			xp_cost = 8
 		}
 
 
-		#AGL Teams
+		# AGL Teams
 		cold_war_agl = {
 			category = infantry_crew_automatic_type
 
@@ -697,7 +697,7 @@ equipment_modules = {
 				
 			}
 
-			xp_cost = 5
+			xp_cost = 10
 		}
 
 		modern_agl = {
@@ -707,7 +707,7 @@ equipment_modules = {
 				
 			}
 
-			xp_cost = 5
+			xp_cost = 10
 		}
 
 		future_agl = {
@@ -717,7 +717,7 @@ equipment_modules = {
 				
 			}
 
-			xp_cost = 5
+			xp_cost = 10
 		}
 
 	# Mortar Teams
@@ -729,7 +729,7 @@ equipment_modules = {
 				
 			}
 
-			xp_cost = 5
+			xp_cost = 10
 		}
 
 		modern_mortar = {
@@ -739,7 +739,7 @@ equipment_modules = {
 				
 			}
 
-			xp_cost = 5
+			xp_cost = 10
 		}
 
 		future_mortar = {
@@ -749,8 +749,336 @@ equipment_modules = {
 				
 			}
 
+			xp_cost = 10
+		}
+
+	# Additional Equipment
+
+		extra_grenades = { # More grenade more good, except when it comes to reliability, they also include things like smoke, flash, and AT grenades
+			category = infantry_additional_equipment_type
+
+			add_stats = {
+				
+			}
+
 			xp_cost = 5
 		}
+
+		additional_ammunition = { # More ammo more good, except when it comes to reliability
+			category = infantry_additional_equipment_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 5
+		}
+
+		extra_medical_supplies = { # The improve defense slightly but mostly give trickleback bonuses
+			category = infantry_additional_equipment_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 5
+		}
+
+		spare_components = { # Spare Components represent things like extra parts for existing equipment, as such they are expensive but give lots of reliability
+			category = infantry_additional_equipment_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 5
+		}
+
+	# Optics & Attachments
+	# Optics increase recon and provide some minor multiplicative damage benefits
+	# Attachments increase breakthrough and provide some minor defensive benefits
+
+		# Attachments
+		modular_attachments = {
+			category = infantry_optic_attachment_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 2
+		}
+
+		tactical_attachments = {
+			category = infantry_optic_attachment_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 5
+		}
+
+		smart_attachments = {
+			category = infantry_optic_attachment_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 10
+		}
+		
+		# Optics
+		telescopic_optics = {
+			category = infantry_optic_attachment_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 2
+		}
+
+		headwear_optics = {
+			category = infantry_optic_attachment_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 5
+		}
+		
+		smart_optics = {
+			category = infantry_optic_attachment_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 10
+		}
+
+	# Unmanned Vehicles (Drones)
+	# SUAVs are aerial scouts primarily capable of recon, later tiers expand capabilities to include generic stat multipliers
+	# UGVs are ground vehicles designed to carry supplies or mount heavy weapons, they can counteract the negative effects of crew-served weapons
+
+		#Small Unmanned Aerial Vehicles
+		early_modern_suav = {
+			category = infantry_drone_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 5
+		}
+
+		modern_suav = {
+			category = infantry_drone_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 5
+		}
+
+		advanced_suav = {
+			category = infantry_drone_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 10
+		}
+
+		future_suav = {
+			category = infantry_drone_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 10
+		}
+
+		# Unmanned Ground Vehicles
+		early_modern_ugv = {
+			category = infantry_drone_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 5
+		}
+
+		modern_ugv = {
+			category = infantry_drone_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 5
+		}
+
+		advanced_ugv = {
+			category = infantry_drone_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 10
+		}
+
+		future_ugv = {
+			category = infantry_drone_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 10
+		}
+
+	## camouflage
+	## Camo is a generic buff that alternates between multiplier defense and breakthrough bonuses, it should be relatively cheap but expensive to research
+	## Late camo (thermoptic & multispectral) should become significantly more expensive than their predecesors
+	## Somewhat of a joke, Matte should give trickleback as it's much easier to identify friend from foe
+
+		matte_camouflage = {
+			category = infantry_uniform_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 0
+		}
+
+		early_camouflage = {
+			category = infantry_uniform_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 2
+		}
+
+		multiscale_camouflage = {
+			category = infantry_uniform_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 3
+		}
+
+		digital_camouflage = {
+			category = infantry_uniform_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 5
+		}
+
+		multispectral_camouflage = {
+			category = infantry_uniform_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 5
+		}
+
+		thermoptic_camouflage = {
+			category = infantry_uniform_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 5
+		}
+
+	## Body Armor
+	## I don't know, armor and stuff man, love me comments
+
+		kevlar_vest = {
+			category = infantry_armor_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 3
+		}
+
+		plate_reinforced_vest = {
+			category = infantry_armor_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 3
+		}
+
+		improved_tactical_vest = {
+			category = infantry_armor_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 5
+		}
+
+		tatical_assault_suite = {
+			category = infantry_armor_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 5
+		}
+
+	## Exoskeletons
+	## The token futuristic module, exoskeletons are a late-game way of adding reliability and probably some other stats
+
+		soft_exoskeleton = {
+			category = infantry_exoskeleton_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 5
+		}
+
+		rigid_exoskeleton = {
+			category = infantry_exoskeleton_type
+
+			add_stats = {
+				
+			}
+
+			xp_cost = 5
+		}
+
+
+	### Classis Equipment Designer Modules
 
 	# Main Armament 
 		prewar_weapon = {
