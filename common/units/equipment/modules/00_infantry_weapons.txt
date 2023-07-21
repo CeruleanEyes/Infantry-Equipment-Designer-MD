@@ -626,8 +626,8 @@ equipment_modules = {
 
 	# Crew-Served Automatic Weapons
 
-		# LMG Teams
-		cold_war_lmg = {
+		# GPMG Teams
+		cold_war_gpmg = {
 			category = infantry_crew_automatic_type
 
 			add_stats = {
@@ -637,7 +637,7 @@ equipment_modules = {
 			xp_cost = 5
 		}
 
-		modern_lmg = {
+		modern_gpmg = {
 			category = infantry_crew_automatic_type
 
 			add_stats = {
@@ -647,7 +647,7 @@ equipment_modules = {
 			xp_cost = 5
 		}
 
-		future_lmg = {
+		future_gpmg = {
 			category = infantry_crew_automatic_type
 
 			add_stats = {
